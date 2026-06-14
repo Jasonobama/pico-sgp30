@@ -31,18 +31,14 @@
 ```
 pico-sgp30/
 ├── CMakeLists.txt          # CMake 构建配置
-├── pico_sdk_import.cmake   # Pico SDK 导入脚本
 ├── pico-sgp30.c            # 主程序（业务逻辑）
 ├── lib/
 │   ├── sgp30.h             # SGP30 驱动头文件
 │   ├── sgp30.c             # SGP30 驱动实现（软件 I2C）
 │   ├── ssd1306.h           # SSD1306 驱动头文件
 │   └── ssd1306.c           # SSD1306 驱动实现（硬件 I2C + 5×8 字体）
-├── pico/                   # 参考示例（非构建使用）
-│   ├── sgp30.h / sgp30.c
-│   └── example/main.c
-├── .vscode/                # VS Code 配置
-└── build/                  # 构建输出目录
+|
+└── README.md               # README.md
 ```
 
 ## 库文件 API
